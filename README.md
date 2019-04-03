@@ -36,6 +36,10 @@ random dummy input data.
  to gain a deeper understanding into something not nec. related to
   Keras/Tensorflow.
   
+ ## Virtual Env
+ I would always recommend that you work in an virtual environment,
+ and run ```make dep``` to install the requirements.
+  
  # Keras Exercises
  
  
