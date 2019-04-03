@@ -1,0 +1,17 @@
+image==1.5.20
+numpy==1.14.3
+tensorflow
+sklearn
+pandas
+gym
+gym[atari]
+matplotlib
+tensorflow-hub
+click
+bs4
+boto3
+opencv-python
+gTTS
+pydub
+keras
+
