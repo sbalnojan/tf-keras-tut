@@ -41,7 +41,8 @@ random dummy input data.
  and run ```make dep``` to install the requirements.
   
  # Keras Exercises
- These exercises are meant to understand keras.
+ These exercises are meant to understand keras in some ways I wanted
+  to understand things, and are a totally subjective collection.
  ### Exercise 1 - How Models work in keras
  In keras there is the general "model", the class keras.models.Model and there
  is a simpler one, the class keras.models.Sequential. 
@@ -60,3 +61,9 @@ random dummy input data.
  c) Construct a longer .Sequential() model with 10 inputs, 2 hidden layers
  with 2 and 10 units and 2 output units.
  
+ ### Exercise 2 - Integrate Tensorboard
+ This might seem like an odd second exercise, but I do find it 
+ important to have a visual output. Tensorboard is one core strength of tensorflow
+ and I find it important to have that in (the simpler to use) Keras as well. 
+ 
+ a) 

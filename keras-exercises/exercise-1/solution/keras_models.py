@@ -43,8 +43,7 @@ def build_longer_seq_model():
     model.summary()
     return model
 
-# ----------------------------------------------------------------------------------------------------------------------
-# ---- Template part
+# -------- Run this to see whether things work -------------------------------------------------------------------------
 import numpy as np
 
 def generate_dummy_data():
