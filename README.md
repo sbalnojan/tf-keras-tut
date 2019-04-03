@@ -41,5 +41,22 @@ random dummy input data.
  and run ```make dep``` to install the requirements.
   
  # Keras Exercises
+ These exercises are meant to understand keras.
+ ### Exercise 1 - How Models work in keras
+ In keras there is the general "model", the class keras.models.Model and there
+ is a simpler one, the class keras.models.Sequential. 
  
+ a) Construct a model (with 
+ one layer in total) with
+ - 10 inputs
+ - a "dense" layer
+ - 2 outputs
+ 
+ once in the class .Sequential, then in the class .Model.
+ 
+ b detoure) Make a python class "InputDummy" which is "callable" and simply 
+ prints the called parameter (see demo code for that that means if you don't).
+ 
+ c) Construct a longer .Sequential() model with 10 inputs, 2 hidden layers
+ with 2 and 10 units and 2 output units.
  
