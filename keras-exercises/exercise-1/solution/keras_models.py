@@ -3,7 +3,9 @@ from keras.layers import Dense
 
 def build_seq_model():
     """ Exercise 1a """
+    INPUT_SHAPE=(10,)
     model = Sequential()
+    model.add(Dense(2, input_shape=INPUT_SHAPE))
 
     return model
 
@@ -12,11 +14,18 @@ from keras.layers import Input
 
 def build_model():
     """ Exercise 1a """
+    INPUT_SHAPE=(10,)
+    inputs = Input(shape=INPUT_SHAPE)
+    outputs = Dense(2)(inputs)
+    model = Model(inputs=inputs, outputs=outputs)
+
     return model
 
 # Exercise 1c, understand calls, and what happens here
 class InputDummy:
     """ Exercise 1b """
+    def __call__(self, this):
+        print(this)
 
 x = InputDummy()
 x("this")
@@ -25,6 +34,11 @@ InputDummy()("that")
 
 def build_longer_seq_model():
     """ Exercise 1c """
+    INPUT_SHAPE=(10,)
+    model = Sequential()
+    model.add(Dense(2, input_shape=INPUT_SHAPE))
+    model.add(Dense(20))
+    model.add(Dense(2))
 
     model.summary()
     return model
