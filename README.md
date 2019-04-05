@@ -61,9 +61,15 @@ random dummy input data.
  c) Construct a longer .Sequential() model with 10 inputs, 2 hidden layers
  with 2 and 10 units and 2 output units.
  
- ### Exercise 2 - Integrate Tensorboard
+ ### Exercise 2 - Integrate Tensorboard, Early Stopping, Save Checkpoints
  This might seem like an odd second exercise, but I do find it 
  important to have a visual output. Tensorboard is one core strength of tensorflow
  and I find it important to have that in (the simpler to use) Keras as well. 
  
  a) 
+ 
+ ### Exercise 3 - Understand Embeddings
+ 
+ 
+ ### Kaggle 1 - Images
+ 
