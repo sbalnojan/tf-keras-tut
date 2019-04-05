@@ -10,8 +10,13 @@ fitting, also take a look at the embedding layer values itself (yes,
 you can access the values of individual layers... see the solution or figure out 
 yourself).
 
-c) Word2Vec
+c) GloVe: 
+https://nlp.stanford.edu/projects/glove/
 
-d) GloVe
+
+d) Word2Vec: Next task is to preload a specific pretrained embedding,
+Word2Vec into an Embedding layer. 
+https://code.google.com/archive/p/word2vec/
+
 
 More) There's more, but we won't dive into eLMo and BERT for now.
